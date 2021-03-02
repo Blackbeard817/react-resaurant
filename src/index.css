@@ -1,0 +1,50 @@
+body {
+  
+  background-size: contain;
+  background-color: rgb(246, 244, 210);
+  font-family: "Josefin Sans", sans-serif;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-image: url(https://i.pinimg.com/originals/70/5d/f0/705df0a….jpg);
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+h1 {
+  text-align: center;
+  background-image: url(https://img.freepik.com/free-photo/wooden-background_24972-623.jpg?size=626&ext=jpg);
+  font-size: 150px;
+  color: rgb(255, 186, 8);
+  box-shadow: black 5px 8px;
+  padding: 15px;
+  margin: 0px 0px 25px;
+}
+
+h2, h3, h4 {
+  color: rgb(164, 74, 63);
+  margin-top: 50px;
+}
+
+.main-nav ul {
+  margin: 0;
+  padding: 0;
+
+}
+
+.main-nav li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+img {
+  width: 100%;
+  box-shadow: rgb(144, 190, 109) 3px 3px;
+}
+
+p {
+  margin-top: 120px;
+}
