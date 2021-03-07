@@ -27,6 +27,7 @@ h1 {
 h2, h3, h4 {
   color: rgb(164, 74, 63);
   margin-top: 50px;
+  size: 3rem;
 }
 
 .main-nav ul {

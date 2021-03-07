@@ -26,6 +26,14 @@ export default function Home() {
         }
     ];
 
+    const Special = [ 
+        {
+            "name": "Krayt Dragon Egg Omlette",
+            "image": "https://media3.s-nbcnews.com/i/newscms/2016_13/1475476/160328-bessieres-giant-omelette-03_2760ea79c1ce6db477365eb719870348.jpg",
+            "description": "This rare treat is only available every five years. Taking several hours and many chefs to prepare, this breakfast feast is a must have."
+        }
+    ];
+
 
 
     return (
@@ -47,6 +55,10 @@ export default function Home() {
 })} 
                     <h2>Desserts</h2>
                     {desserts.map((item)=> {
+                    return <MenuItemPreview name={item.name} image={item.image} description={item.description}></MenuItemPreview>
+})} 
+                     <h2>Special</h2>
+                    {Special.map((item)=> {
                     return <MenuItemPreview name={item.name} image={item.image} description={item.description}></MenuItemPreview>
 })} 
                 </div>
